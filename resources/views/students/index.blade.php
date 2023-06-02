@@ -9,11 +9,11 @@
 
 <nav class="navbar navbar-inverse">
     <div class="navbar-header">
-        <a class="navbar-brand" href="{{ URL::to('students') }}">Student Alert</a>
+        <a class="navbar-brand" href="{{ URL::to('students') }}">Student Data</a>
     </div>
     <ul class="nav navbar-nav">
-        <li><a href="{{ URL::to('students') }}">View All students</a></li>
-        <li><a href="{{ URL::to('students/create') }}">Create a student</a>
+        <li><a href="{{ URL::to('students') }}">View All Students</a></li>
+        <li><a href="{{ URL::to('students/create') }}">Create a Student</a>
     </ul>
 </nav>
 
